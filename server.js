@@ -33,6 +33,9 @@ app.use("/api/courses", courseRoutes);
 app.use("/api/teachers",teacherRoutes);
 app.use("/api/auth", authRoutes);
 
+app.get("/", (req, res) => {
+  res.send("EduAdmin Backend Running 🚀");
+});
 // Start Server
 const PORT = process.env.PORT || 5000;
 

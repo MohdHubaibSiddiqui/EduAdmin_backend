@@ -114,6 +114,8 @@ const Admin = require("../models/Admin");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
+
+
 // REGISTER ADMIN
 router.post("/register", async (req, res) => {
   try {
