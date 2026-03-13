@@ -138,7 +138,7 @@ const express = require("express");
 const router = express.Router();
 const Teacher = require("../models/Teacher");
 
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 
